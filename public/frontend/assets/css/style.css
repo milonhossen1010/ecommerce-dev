@@ -1,0 +1,1003 @@
+
+.download-button {
+    position: relative; 
+    bottom: 12px; 
+    right: 16px; 
+    padding: 10px 20px; 
+    font-size: 15px; 
+    border: 1px solid #192537;
+  }
+  .download-button:hover {
+    background: #192537;
+    color: #fff;
+  }
+  a.download-button:hover {
+    text-decoration: none;
+  }
+  
+  
+  
+  #tccselectB1:focus, #tccselectB2:focus, #tccselectB3:focus, #tccselectB4:focus, #tccselectB5:focus, #tccselectB6:focus, #tccselectB7:focus, #tccselectB8:focus, #tccselectB9:focus, #tccselectB10:focus, #tccselectB11:focus, #tccselectB12:focus, #tccselectB13:focus, #tccselectB14:focus, #tccselectB15:focus, #tccselectB16:focus, #tccselectB17:focus, #tccselectB18:focus, #tccselectB19:focus, #tccselectB20:focus, #tccselectB21:focus, #tccselectB22:focus, #tccselectB23:focus, #tccselectB24:focus, #tccselectB25:focus, #tccselectB26:focus, #tccselectB27:focus, #tccselectB28:focus {
+    border: 1px solid #192537;
+  }
+  select {
+    color: #5A6B7B;
+  }
+  button {
+    text-shadow: none;
+  }
+   #tcc-body {
+    margin: 0;
+  }
+   #tcc-body {
+      background-color: #F7FCFF;
+  }
+  #tcc-body * {
+      font-family: 'Roboto', sans-serif !important;
+  }
+  #tcc-firstHalf {
+      padding-bottom: 1rem;
+  }
+  #tcc-table {
+      background-color: white;
+      border-collapse: collapse;
+      width: 100%;
+      height: 50%;
+  }
+  #tcc-lasttdtogether{
+      float: right;
+  }
+  .tcc-td, #tcc-first, .tcc-topborder, .tcc-lasttd, .tcc-firsttd{
+      border-bottom: 1px solid #C6D2D9;
+      text-align: left;
+      padding: 8px;
+  }
+  #tcc-first, .tcc-topborder {
+      background-color: #3498DB;
+      font-weight: normal;
+      font-size: 14px;
+      height: 50px;
+  }
+  #tcc-dateth {
+    padding-right: 30px;
+      text-align: right !important;
+      border-right: 1px solid #C6D2D9;
+  }
+  #tcc-first {
+      width:20%;
+      border-top: 1px solid #C6D2D9;
+  }
+  .tcc-lasttd{
+      border-right: 1px solid #C6D2D9;
+      text-align: right;
+  }
+  .tcc-topborder{
+      border-top: 1px solid #C6D2D9;
+  }
+  #tcc-printleftdate, #tcc-printrightdate {
+      text-align: center;
+      border: none;
+      outline: none;
+  }
+  .tcc-date {
+      font-size: 12px;
+      color: #fff;
+      text-align: right;
+      border: none;
+      outline: none;
+  } 
+  .tcc-hoursinput {
+      border: none;
+      outline: none;
+      text-align: right;
+      margin-right: 0px;
+      color: #5A6B7B;
+  }
+  .tcc-min {
+      border: none;
+      outline: none;
+      text-align: center;
+      margin-left:-5px;
+      margin-right: 2px;
+      color: #5A6B7B;
+  }
+  .tcc-dots {
+      margin-left: 1px;
+      margin-right: 1px;
+  }
+  #tcc-totalth {
+      border-right: 1px solid #C6D2D9;
+      width: 20%;
+      text-align: right;
+  }
+  .tcc-total, #tcc-totalText {
+      text-align: right;
+      margin-right: 50px;
+  }
+  #tcc-secondTH,#tcc-thirdTH,#tcc-fourthTH {
+      width: 20%;
+  }
+  input.tcc-date{
+      margin-left: 50px;
+      display: inline;
+  }
+  .tcc-date {
+      background-color: #3498DB;
+  }
+  #tcc-rightdate{
+      margin-left: 0px;
+  }
+  #tcc-lastrow {
+      background-color: #3498DB;
+      border:none;
+      height:60px;
+  }
+  .tcc-last {
+      border-bottom: 6px solid #C6D2D9;
+  }
+  #tcc-left {
+      border-left:1px solid #C6D2D9;
+  }
+  #tcc-right {
+      border-right: 1px solid #C6D2D9;
+      font-size:15px;
+  }
+  #tcc-totalhrtd, #tcc-totalhours, .tcc-printtext, #tcc-footertext, #tcc-dash, #tcc-totalhoursprint, #tcc-totalhoursprinttext, #tcc-day, .tcc-total, .tcc-weekday, .tcc-dots, #tcc-totalText{
+      display:inline;
+      font-size:15px;
+      position: relative;
+  }
+  #tcc-dash{
+      padding-left: 10px;
+      margin-right: -8px;
+  }
+  #tcc-print,#tcc-download{
+      float:right;
+      font-family: sans-serif;
+  }
+  #tcc-print:hover,#tcc-download:hover{
+      cursor:pointer;
+      color:#0D9CE0;
+  }
+  #tcc-print{
+      margin-right:10px;
+      width: 130px;
+      height: 40px;
+      border: 1px solid #C6D2D9;
+      background: white;
+      background-position: left 5px 7px;
+      border-radius: 3px;
+  }
+  #tcc-download {
+      width: 130px;
+      height: 40px;
+      border: 1px solid #C6D2D9;
+      background: white;
+      background-position: left 5px 5px;
+      border-radius: 3px;
+  }
+  #tcc-calculate{
+      margin-right: 10px;
+      float: right;
+      background-color: #192537;
+      border-radius: 3px;
+      border: none;
+      color: white;
+      width: 130px;
+      height: 40px;
+      background: #3498DB;
+  }
+
+  #tcc-calculate:hover{
+      background-color: #192537;
+      cursor: pointer;
+      /*! color: #fff !important; */
+  }
+  #tcc-calculate:hover p{
+    color: #fff !important;
+}
+  .tcc-svg {
+      position: relative;
+      margin-right: 10px;
+  }
+  .tcc-printtext, .tcc-export88 {
+    color: #666;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  .tcc-resetsend{
+      margin-top: 8px;
+      margin-right: 18px;
+      float: right;
+      background-color: #F7FCFF;
+      border:none;
+      color:#192537;
+      font-size:14px;
+  }
+  .tcc-resetsend:hover{
+      cursor: pointer;
+  }
+  #tcc-totalhours{
+      font-weight: 700;
+      font-size: 16px;
+      color: #fff;
+      margin-right: 55px;
+  }
+  #tcc-totalhrtd {
+      padding-left: 20px;
+      font-weight: 700;
+      font-size: 16px;
+      color: #fff;
+      padding-top: 8px;
+  }
+  .tcc-firsttd{
+      border-left: 1px solid #C6D2D9;
+  }
+  .tcc-weekday {
+      font-size: 14px !important; 
+      margin-left:20px;
+  }
+  #tcc-h1 {
+      font-weight: normal;
+      margin-left: 5px;
+  }
+  #tcc-totalhoursprint {
+      font-weight: bold;
+      font-size: 20px;
+      color: #4c4c4c;
+  }
+  div#tcc-topleftprint {
+      margin-bottom: 80px;
+      margin-top: 50px;
+      margin-left: 30px;
+      display: none;
+  }
+  #tcc-printtotal {
+      display: block;
+      margin-top: 20px;
+      margin-left: 5px;
+  }
+  #tcc-image {
+      float: right;
+      margin-top: -50px;
+  }
+  .tcc-wrapper {
+      overflow: hidden;
+  }
+  .tcc-firstdiv {
+      float:left;
+      border: 1px solid #C6D2D9;
+      height: 32px;
+      padding-top: 7px;
+      margin-right: 10px;
+      padding-right: 5px;
+      background-color: white;
+  }
+  .tcc-firstdiv:focus-within{
+      border: 1px solid #192537 !important;
+  }
+  .tcc-seconddiv {
+      overflow: auto;
+      background-color: white;
+      width: 66px;
+  }
+  #tcc-footer {
+      bottom: 30;
+      position: fixed;
+  }
+  #tcc-clockifylink {
+      color: blue;
+  }
+  #tcc-clockifylink:visited {
+      color: purple;
+  }
+  .tcc-export88:hover {
+      cursor:pointer;
+      color:#0D9CE0;
+  }
+  #tcc-calculatebuttontext {
+      color: #fff;
+      display: inline;
+      font-size: 13px;
+      position: relative;
+  }
+  #tcc-secondrow {
+      height: 38px;
+  }
+  #tcc-secondrow p {
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+  }
+  ::-webkit-inner-spin-button { 
+      display: none;
+  }
+  #tcc-name{
+      color: #666666;
+      background-color: transparent;
+      border: none;
+      padding-left: 15px;
+  }
+  #tcc-showoptions {
+      margin-top:10px;
+      margin-bottom:30px;
+  }
+  #tcc-checkboxes1 {
+      float: left;
+  }
+  #tcc-checkboxes2 {
+      margin-left: 50px;
+      float:left;
+  }
+  #tcc-basepaydiv {
+      font-size: 14px;
+      margin-left: 40px;
+      padding-right: 30px;
+      margin-right: -170px;
+      border-right: 1px dashed #C6D2D9;
+      border-left: 1px dashed #C6D2D9;
+      padding-left: 20px;
+      float: left;
+  }
+  #tcc-basepaytext {
+      font-size: 14px;
+      margin: 0;
+  }
+  #tcc-payrateinput {
+      border: 1px solid #C6D2D9;
+      height: 40px;
+      width: 100px;
+      text-align: center;
+      margin-top: 10px;
+      color: #666;
+  }
+  #tcc-currencies {
+      text-align: center;
+      width: 40px;
+      border: 1px solid #C6D2D9;
+      background: #fff;
+      font-size: 14px;
+      margin-left: 5px;
+      color: #666;
+      height: 40px;
+  }
+  #tcc-perhourtext {
+      font-size: 14px;
+      display: inline;
+      margin-left: 5px;
+  }
+  #tcc-overtimediv {
+      margin-left: 200px;
+      float: left;
+      font-size: 14px;
+  
+  }
+  #tcc-overtimetext {
+      font-size: 14px;
+      margin: 0;
+  }
+  #tcc-overtimeratetext {
+      font-size: 14px;
+      margin-bottom: 10px;
+  }
+  #tcc-overtimevalues {
+      height: 44px;
+      border: 1px solid #C6D2D9;
+      background: #fff;
+      padding-left: 10px;
+      width: 140px;
+      font-size: 14px;
+      color: #666;
+  }
+  #tcc-overtimeratediv {
+      font-size: 14px;
+      float: left;
+      margin-left: 20px;
+      margin-top: -14px;
+  }
+  #tcc-additionaloptions {
+    margin-top: 20px;
+    color:#666;
+    margin-bottom: 210px;
+  }
+  #tcc-overtimevalueinput {
+      height: 40px;
+      width: 50px;
+      text-align: center;
+      margin-top: 10px;
+      border: 1px solid #C6D2D9;
+      color: #666;
+  }
+  #tcc-overtimerateinput {
+      border: 1px solid #C6D2D9;
+      height: 40px;
+      width: 70px;
+      text-align: center;
+      color: #666;
+  }
+  #tcc-baseratetext {
+      font-size: 14px;
+      display: inline;
+      margin-left: 5px;
+  }
+  .tcc-checkbox {
+      margin-top: 10px;
+      width: 20px;
+      height: 15px;
+  }
+  #tcc-additionaloptions {
+      display: block;
+  }
+  /* The container */
+  .tcc-container {
+    width: 200px;
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #666;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .tcc-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .tcc-checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    border: 1px solid #C6D2D9;
+    background-color: #fff;
+  }
+  .tcc-container:hover input ~ .tcc-checkmark {
+    background-color: #fff;
+  }
+  .tcc-container input:checked ~ .tcc-checkmark {
+    background-color: #192537;
+    border: none;
+  }
+  .tcc-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .tcc-container input:checked ~ .tcc-checkmark:after {
+    display: block;
+  }
+  .tcc-container .tcc-checkmark:after {
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .tcc-breakColumns {
+      display: none;
+  }
+  #tcc-datesdiv {
+      text-align: center;
+      display: inline;
+  }
+  #tccselectB1, #tccselectB2, #tccselectB3, #tccselectB4, #tccselectB5, #tccselectB6, #tccselectB7, #tccselectB8, #tccselectB9, #tccselectB10, #tccselectB11, #tccselectB12, #tccselectB13, #tccselectB14, #tccselectB15, #tccselectB16,  #tccselectB17,  #tccselectB18,  #tccselectB19,  #tccselectB20,  #tccselectB21, #tccselectB22, #tccselectB23, #tccselectB24, #tccselectB25, #tccselectB26, #tccselectB27, #tccselectB28 {
+      text-align-last: right;
+      z-index:5;
+      background-color:transparent;
+      height: 41px;
+      width: 113px;
+      font-size: 14px;
+      padding-left:0px;
+      padding-right: 5px;
+      margin-left: -15px;
+      border-top: 1px solid #C6D2D9;
+      border-right: 1px solid #C6D2D9;
+      border-bottom: 1px solid #C6D2D9;
+      border-left: none;
+      outline: none;
+  }
+  .tcc-seconddivtest {
+      z-index:4;
+      position: relative;
+      overflow: auto;
+      background-color: white;
+      width: 100px;
+  }
+  .tcc-firstdivtest {
+      z-index: 6;
+      position: relative;
+      float:left;
+      border-top: 1px solid #C6D2D9;
+      border-left: 1px solid #C6D2D9;
+      border-bottom: 1px solid #C6D2D9;
+      height: 32px;
+      padding-top: 7px;
+      margin-right: -50px;
+      padding-right: 2px;
+      background-color: white;
+  }
+  .tcc-wrappertest {
+      position: relative;
+      overflow:visible;
+  }
+  #tcc-startBreakHR1 {
+      z-index: 7;
+      padding-right: 0 !important;
+  }
+  #tcc-calculatePaysDiv {
+      display: none;
+      width: 100%;
+      height: 100%;
+      margin-top: 15px;
+      float:right;
+  }
+  #tcc-calculateHoursDiv {
+      float: right;
+  }
+  #tcc-calculateRegularPay{
+      font-weight: 700;
+      color: #333333;
+      font-size: 16px;
+  }
+  #tcc-calculateOvertimePay {
+      font-size: 12px;
+      color: #5A6B7B;
+      position: absolute;
+  }
+  #tcc-overtimeHoursSpan {
+      font-size: 12px;
+      display: none;
+  }
+  #tcc-currencySymbol, #tcc-totalPayValue, #tcc-currencyOvertimeSymbol, #tcc-totalOvertimePayValue {
+      display: inline;
+      font-size: 12px;
+      color: #5A6B7B;
+  }
+  #tcc-footer{
+      display: none;
+  }
+  #tcc-textAreaDiv {
+      position: absolute;
+      z-index: 10000;
+      margin-left: 25%;
+      margin-top: -25%;
+      display: none;
+      border: 1px solid #666;
+      padding: 40px 60px;
+      background-color: #F7FCFF;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+  }
+  #tcc-textAreaDiv p {
+    margin: 0px 0 10px;
+  }
+  #tcc-textAreaButton{
+      background-color: #192537;
+      border: none;
+      color: white;
+      width: 116px;
+      height: 42px;
+      float: right;
+      margin-top: 10px;
+      border-radius: 3px;
+  }
+  #tcc-textAreaButton:hover{
+      background-color: #0D9CE0;
+      cursor: pointer;
+  }
+  #tcc-textArea {
+      width: 50em;
+      height: 15em;
+      padding: 15px 15px;
+      font-size: 14px;
+      background-color: white;
+      outline: none !important;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+  }
+  #tcc-textArea:focus{
+      /* outline: none !important;
+      border: 1px solid #192537 !important;
+      box-shadow: 0 0 10px #719ECE; */
+  }
+  #tcc-textAreaCancelButton{
+      margin-top: 20px;
+      margin-right: 10px;
+      float: right;
+      background-color: #F7FCFF;
+      border:none;
+      color:#192537;
+      font-size:14px;
+  }
+  #tcc-textAreaCancelButton:hover{
+      cursor: pointer;
+  }
+  #tcc-noteText{
+      display: none;
+  }
+  #tcc-fixedNoteText{
+      display: none;
+  }
+  .tcc-tableHeaderText{
+   font-size: 12px !important;
+   color: #666666;
+   padding-top: 0px;
+   padding-bottom: 0px;
+  }
+  .tcc-breakDeduction {
+  padding-right: 0.3em;
+  }
+  #tcc-currencySymbol, #tcc-totalPayValue{
+      font-weight: 700;
+      color: #333333;
+      font-size: 16px;
+  }
+  #tcc-totalHoursSpan{
+      float: right;
+      display: inline;
+  }
+  #tcc-overtimeHoursSpan {
+      float: right;
+      clear: right;
+  }
+  #tcc-overtimeTotalhrtd{
+      display: inline;
+      font-size: 12px;
+  }
+  #tcc-overtimeTotalhours{
+      display: inline;
+      font-size: 12px;
+      padding-right: 65px;
+  }
+  .tcc-firstdivtest:focus-within {
+       border-top: 1px solid #192537; 
+       border-left: 1px solid #192537; 
+       border-bottom: 1px solid #192537;
+  }
+  .tcc-firstdivtest:hover ~ #tccselectB1 {
+    border: 1px solid #192537;
+  }
+  @media only screen and (max-width: 1620px) and (min-width: 1350px) {
+      #tcc-basepaydiv, #tcc-overtimediv {
+          margin-right: 0;
+          padding-right: 10px;
+          margin-top:0;
+          margin-left: 20px;
+          color: #666;
+          font-size: 14px;
+  }
+  #tcc-overtimeratediv {
+          color: #666;
+          font-size: 14px;
+          margin-right: 0;
+          padding-right: 10px;
+          margin-top: -14px;
+          margin-left: 10px;
+  }
+  }
+  @media only screen and (max-width: 1349px)  {
+      .tcc-firstdiv {
+          width: 4em;
+          display: inline;
+      }
+      #tcc-additionaloptions {
+            margin-bottom: 650px;
+      }
+      #tcc-basepaydiv, #tcc-overtimediv {
+          border-right: 0;
+          border-left: 0;
+          margin-left: 0;
+          padding-left: 0;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          float: left;
+          clear: left;
+      }
+      #tcc-overtimeratediv{
+          margin-left: 0;
+          padding-left: 0;
+          float: left;
+          clear: left;
+          margin-bottom: 20px;
+          margin-top: 0px;
+      } 
+      #tcc-checkboxes1, #tcc-checkboxes2 {
+          float: left;
+          clear: left;
+      }
+      #tcc-checkboxes2 {
+          margin-left: 0;
+          margin-top: 24px;
+      }
+  }
+  @media only screen and (max-width:880px)  {
+    #tccselectB1, #tccselectB2, #tccselectB3, #tccselectB4, #tccselectB5, #tccselectB6, #tccselectB7, #tccselectB8, #tccselectB9, #tccselectB10, #tccselectB11, #tccselectB12, #tccselectB13, #tccselectB14, #tccselectB15, #tccselectB16,  #tccselectB17,  #tccselectB18,  #tccselectB19,  #tccselectB20,  #tccselectB21, #tccselectB22, #tccselectB23, #tccselectB24, #tccselectB25, #tccselectB26, #tccselectB27, #tccselectB28 {
+          display: none;
+    }
+    .tcc-firstdivtest {
+        border-right: 1px solid #C6D2D9;
+    }
+  } 
+  @media only screen and (max-width: 650px)  {
+    #tcc-download, #tcc-print, #tcc-calculate, .tcc-resetsend {
+      clear: both;
+      width:100%;
+      margin: 5px 5px;
+    }
+    #tcc-showoptions {
+       padding-top: 180px;
+    }
+  }
+  @media print {
+  @page { 
+      size: landscape;
+  }
+  #tcc-firstHalf {
+        padding-bottom: 0rem;
+  }
+  header, #header-container-id, #section-howto-id, #tcc-image, section.ttc-content, section.get-started, footer, button, #tcc-showoptions, .separator-no-top {
+    display: none;
+  }
+  .tcc-tableHeaderText {
+      padding-left: 10px;
+  }
+  .tcc-weekday {
+    padding-left: 0px;
+  }
+  #tcc-noteText{
+      display: block;
+      font-size: 15px;
+  }
+  #tcc-secondrow p {
+    color: #333333;
+  }
+  #tcc-earnedAmountsTD{
+      float: left;
+      margin-top: 10px;
+  }
+  #tcc-fixedNoteText{
+      display: block;
+      font-weight: bold;
+      font-size: 15px;
+  }
+  #tcc-footer {
+      display: inline;
+  }
+  #tcc-datesdiv{
+      font-size: 0px;
+  }
+  #tcc-dateth {
+      border-right: 0;
+  }
+  #tcc-additionaloptions {
+      display:none !important;
+  }
+  #tcc-name {
+      padding-left: 0;
+  }
+  td.tcc-firsttd, td#tcc-left{
+      border-left: 0;
+      width: 10%;
+  }
+  .tcc-lasttd, #tcc-right, #tcc-totalth {
+      border-right:0;
+  }
+  .tcc-last {
+      border-bottom:0;
+  }
+  .tcc-total, #tcc-totalText {
+      margin-right: -8px;
+  }
+  .tcc-topborder, #tcc-first {
+      border-top:0;
+      border-left:0;
+      border-right: 0;
+      width: 15%;
+  }
+  #tcc-right, #tcc-totalhours {
+      margin-top: 10px;
+      padding-right: 0px !important;
+      margin-right: 30px;
+  }
+  #tcc-totalhrtd, #tcc-totalhours {
+      display: inline;
+      font-weight: 700;
+  }
+  #tcc-lasttdtogether {
+      margin-right: -30px;
+  }
+  #tccselectB1, #tccselectB2, #tccselectB3, #tccselectB4, #tccselectB5, #tccselectB6, #tccselectB7, #tccselectB8, #tccselectB9, #tccselectB10, #tccselectB11, #tccselectB12, #tccselectB13, #tccselectB14, #tccselectB15, #tccselectB16,  #tccselectB17,  #tccselectB18,  #tccselectB19,  #tccselectB20,  #tccselectB21, #tccselectB22, #tccselectB23, #tccselectB24, #tccselectB25, #tccselectB26, #tccselectB27, #tccselectB28 {
+      background-color:transparent;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      margin-left: -33px;
+      padding-left: -15px;
+      border: none;
+  }
+  .tcc-firstdivtest {
+      border: 0;
+  }
+  .tcc-date{
+      display: none!important;
+  }
+  #tcc-day {
+      display: inline;
+  }
+  #tcc-first, .tcc-topborder {
+      font-weight:bold;
+  }
+  .tcc-weekday {
+      margin-left: 0px;
+  }
+  div#tcc-topleftprint {
+      display: block;
+      margin-bottom: 0px;
+      margin-left: 0px;
+  }
+  #tcc-printleftdate {
+      margin-left: -8px;
+      margin-right: -50px;
+  }
+  #tcc-printrightdate {
+  }
+  .tcc-wrapper {
+      overflow: visible;
+  }
+  .tcc-firstdiv {
+      float:left;
+      border: none;
+      padding-top: 0px;
+      margin-right: -5px;
+      padding-right: 0px;
+      padding-top: 10px;
+  }
+  .tcc-seconddiv {
+      padding-left: 1px;
+      padding-top: 10px;
+  }
+  #tcc-first {
+      display: none;
+  }
+  #tcc-textAreaDiv, #tcc-textArea, #tcc-textAreaButtonDiv, #tcc-textAreaButton, #tcc-textAreaCancelButton, #tcc-includeNote {
+      display: none;
+      z-index: -9999;
+  }
+  #tcc-secondrow {
+    border: 1px solid white;
+  }
+  #tcc-h1 {
+      margin-top: 0;
+      margin-bottom: 3px;
+      color: #333;
+      line-height: 1;
+  }
+  #tcc-printtotal {
+      margin-top: 0px;
+  }
+  #tcc-totalhoursprint, #tcc-totalhoursprinttext {
+      font-size: 14px;
+      color: #5A6B7B;
+      font-weight: 400;
+  }
+  #tcc-printleftdate, #tcc-printrightdate {
+    font-size: 14px;
+    color: #5A6B7B;
+  }
+  #tcc-table-first-row {
+    border-bottom: 2px solid white;
+  }
+  .tcc-firsttd {
+    padding-left: 0px;
+  }
+  .tcc-lasttd {
+    padding-right: 8px;
+  }
+  .tcc-td, #tcc-first, .tcc-topborder, .tcc-lasttd, .tcc-firsttd {
+      padding-bottom: 2px;
+      padding-top: 2px;
+  }
+  #tcc-overtimeTotalhours {
+        padding-right: 30px;
+  }
+  ##tcc-calculateHoursDiv {
+        margin-left: 20px;
+  }
+  #tcc-calculateRegularPay, #tcc-totalhrtd, #tcc-totalPayValue, #tcc-currencySymbol, #tcc-totalhours {
+    font-size: 14px;
+  }
+  #tcc-calculateHoursDiv {
+    margin-left: 20px;
+  }
+  #tcc-totalHoursSpan {
+        margin-bottom: -5px;
+  }
+  #tcc-calculateOvertimePay {
+    margin-top: -5px;
+    margin-left: -7px;
+  }
+  }
+  
+  
+  /*Support box hidden*/
+  iframe#launcher {
+      display: none;
+  }
+  
+  
+  #tcc-overtimediv {
+      display: none;
+    }
+    #tcc-basepaydiv {
+      /*! display: none; */
+    }
+    #tcc-overtimeratediv {
+      display: none;
+    }
+  
+  
+    /* Menu css */
+    
+  .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 93%;
+      margin: auto;
+      flex-wrap: wrap;
+    }
+    .nav .logo {
+      width: 20%;
+    }
+    .menu ul {
+      list-style: none;
+      padding: 0;
+    }
+  
+    .menu ul li {
+      display: inline-block;
+  }
+  
+    .menu ul li a {
+      text-decoration: navajowhite;
+      display: inline-block;
+      text-transform: uppercase;
+      font-family: 'Roboto', sans-serif !important;
+      font-size: 14px;
+      background: #3498DB;
+      color: #fff;
+      padding: 10px 38px;
+      border-radius: 2px;
+    }
+
+    .menu ul li a:hover {
+        color: #fff;
+        background: #192537;
+    }
+    
+    /* mobile layout: 320px */
+  @media only screen and  (max-width: 767px)
+  {   
+      .nav .logo {
+          width: 50%;
+        } 
+  
+      .menu ul li a {
+          padding: 4px;
+          font-size: 12px;
+      }
+  }
