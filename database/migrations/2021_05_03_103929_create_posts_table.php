@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateSettinrsTable extends Migration
+class CreatePostsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateSettinrsTable extends Migration
      */
     public function up()
     {
-        Schema::create('settinrs', function (Blueprint $table) {
+        Schema::create('posts', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
         });
@@ -26,6 +26,6 @@ class CreateSettinrsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('settinrs');
+        Schema::dropIfExists('posts');
     }
 }

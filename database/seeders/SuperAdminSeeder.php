@@ -24,8 +24,8 @@ class SuperAdminSeeder extends Seeder
 
         Setting::create([
             'logo'             =>  'logo.png',
-            'site_identify'    =>  'Timesheets',
-            'crt'              =>  'Copyright 2031 ©',
+            'site_identify'    =>  'Milonpc',
+            'crt'              =>  'Copyright 2020©',
         ]);
 
       

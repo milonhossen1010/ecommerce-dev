@@ -10,7 +10,7 @@
     <div class="main-header-left d-none d-lg-block">
         <div class="logo-wrapper">
             <a href="{{ asset('/') }}">
-                <img style="width: 100%; max-height:60px" class="blur-up lazyloaded" src="{{ asset('/') }}media/images/{{ $logo -> logo }}" alt="">
+                <img style="width: 100%; max-height:50px" class="blur-up lazyloaded" src="{{ asset('/') }}media/images/{{ $logo -> logo }}" alt="">
             </a>
         </div>
     </div>
@@ -25,11 +25,7 @@
         </div>
 
         <ul class="sidebar-menu">
-            {{-- <li class="">
-                <a class="sidebar-header active" href="{{ route('dashboard') }}">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"> <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path> <polyline points="9 22 9 12 15 12 15 22"></polyline> </svg><span>Dashboard</span>
-                </a>
-            </li> --}}
+
             <li class="">
                 <a class="sidebar-header " href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"> <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path> <polyline points="9 22 9 12 15 12 15 22"></polyline> </svg><span>Timesheets<i class="fa fa-angle-right pull-right"></i></span>
@@ -46,6 +42,26 @@
                         <a class="" href="{{ route('homepage') }}"><i class="fa fa-circle"></i>
                             <span>Add New</span>
                         </a>
+                    </li>
+
+                </ul>
+            </li>
+
+            <li class="">
+                <a class="sidebar-header " href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"> <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path> <polyline points="9 22 9 12 15 12 15 22"></polyline> </svg><span>Posts<i class="fa fa-angle-right pull-right"></i></span>
+                </a>
+                <ul class="sidebar-submenu">
+                    <li class="">
+                        <a class="" href="{{ route('post.index') }}"><i class="fa fa-circle"></i> <span>All Posts</span> </a>
+                    </li> 
+
+                    <li class="">
+                        <a class="" href="{{ route('category.index') }}"><i class="fa fa-circle"></i> <span>Categories</span> </a>
+                    </li>
+
+                    <li class="">
+                        <a class="" href=""><i class="fa fa-circle"></i> <span>Tags</span> </a>
                     </li>
 
                 </ul>
@@ -88,11 +104,6 @@
                         </a>
                     </li> 
 
-                    {{-- <li class="">
-                        <a class="" href="{{ route('homepage') }}"><i class="fa fa-circle"></i>
-                            <span>Add New</span>
-                        </a>
-                    </li> --}}
 
                 </ul>
             </li>

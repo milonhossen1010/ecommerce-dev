@@ -58,3 +58,11 @@ Route::group(['prefix' => 'setting','namespace' => 'App\Http\Controllers', 'midd
     Route::post('logo-update','SettingController@logoUpdate')->name('logo.update');
  
 });
+
+//Post 
+
+Route::group(['prefix' => 'post','namespace' => 'App\Http\Controllers', 'middleware'=>'userrolecheck'], function () {
+    Route::resource('post', 'PostController');
+    Route::resource('category', 'CategoryController');
+ 
+});
