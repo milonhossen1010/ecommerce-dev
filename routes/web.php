@@ -64,5 +64,12 @@ Route::group(['prefix' => 'setting','namespace' => 'App\Http\Controllers', 'midd
 Route::group(['prefix' => 'post','namespace' => 'App\Http\Controllers', 'middleware'=>'userrolecheck'], function () {
     Route::resource('post', 'PostController');
     Route::resource('category', 'CategoryController');
+    Route::post('add-category','CategoryController@addCategory');
+    Route::get('showallcategory','CategoryController@showAll');
+    Route::get('delete-category','CategoryController@delete');
+    Route::get('edit-category','CategoryController@categoryEdit');
+    Route::post('update-category','CategoryController@categoryUpdate');
+    Route::post('status','CategoryController@categoryStatus');
+    Route::post('check-category','CategoryController@categoryCheck');
  
 });

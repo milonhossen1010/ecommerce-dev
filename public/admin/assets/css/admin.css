@@ -14804,7 +14804,7 @@ body.dark {
             transform: scale(1, 1); }
 
 a:hover {
-  color: #3498DB;
+  color: #0ee6b0;
   }
 
 .btn-popup {
@@ -15259,9 +15259,9 @@ a:hover {
 .tab2-card .nav-tabs .nav-link {
   color: #333333; }
   .tab2-card .nav-tabs .nav-link.active, .tab2-card .nav-tabs .nav-link:focus, .tab2-card .nav-tabs .nav-link:hover {
-    color: #3498DB;
+    color: #0ee6b0;
     border-color: transparent;
-    border-bottom: 2px solid #3498DB; }
+    border-bottom: 2px solid #0ee6b0; }
 
 .tab2-card .nav-tabs .nav-item.show .nav-link {
   border-color: transparent;
@@ -16066,7 +16066,7 @@ ul {
   padding-right: 0px; }
 
 * a {
-  color: #3498DB; }
+  color: #0ee6b0; }
 
 *.btn:focus {
   -webkit-box-shadow: none !important;
@@ -16289,7 +16289,7 @@ input:focus {
           height: 25px;
           width: 25px;
           z-index: 10;
-          border: 5px solid #3498DB;
+          border: 5px solid #0ee6b0;
           border-radius: 70px;
           -webkit-animation: heartbit 1s ease-out;
           animation: heartbit 1s ease-out;
@@ -16300,7 +16300,7 @@ input:focus {
           width: 6px;
           height: 6px;
           border-radius: 30px;
-          background-color: #3498DB;
+          background-color: #0ee6b0;
           position: absolute;
           right: 6px;
           top: -10px;
@@ -17654,7 +17654,7 @@ ul.notification-dropdown.onhover-show-div {
 /*======= Badge-color css end  ======= */
 /*======= Background-color css starts  ======= */
 .bg-primary {
-  background-color: #3498DB !important;
+  background-color: #0ee6b0 !important;
   color: #ffffff; }
 
 .bg-secondary {
@@ -17690,8 +17690,8 @@ ul.notification-dropdown.onhover-show-div {
 /*======= Font-color css end  ======= */
 /*======= Button-color css starts  ======= */
 .btn-primary {
-  background-color: #3498DB !important;
-  border-color: #3498DB !important; }
+  background-color: #0ee6b0 !important;
+  border-color: #0ee6b0 !important; }
   .btn-primary.disabled {
     background-color: #192537 !important;
     border-color: #192537 !important; }
@@ -19028,7 +19028,7 @@ table tbody .border-bottom-warning td {
   text-align: center; }
 
 .jsgrid-header-row .jsgrid-header-cell {
-  background-color: #3498DB;
+  background-color: #0ee6b0;
   text-align: center;
   padding: 0.75rem;
   color: #fff;
@@ -19195,7 +19195,7 @@ table tbody .border-bottom-warning td {
       background-image: url("../images/dashboard/login-bg.png");
       background-position: center;
       -webkit-box-shadow: 1px 5px 24px 0 #716551;
-              box-shadow: 1px 5px 24px 0 #4c76d9b5; }
+              box-shadow: 1px 5px 24px 0 #0ee6b0; }
     .authentication-box .container .form-group {
       margin-bottom: 1.5rem; }
     .authentication-box .container .svg-icon {
@@ -19209,12 +19209,12 @@ table tbody .border-bottom-warning td {
       .authentication-box .container .svg-icon svg {
         height: 80px; }
     .authentication-box .container p {
-      color: rgba(255, 255, 255, 0.9);
+      color: #222222;
       font-size: 15px;
       line-height: 2;
       text-align: center; }
     .authentication-box .container h3 {
-      color: #ffffff;
+      color: #222;
       font-weight: 600;
       text-align: center; }
 
@@ -24173,5 +24173,5 @@ body.rtl .account-setting {
 
 /* My custom code */
       .form-control:focus {
-        box-shadow: 0 0 0 2px #3498DB;
+        box-shadow: 0 0 0 2px #0ee6b0;
       }

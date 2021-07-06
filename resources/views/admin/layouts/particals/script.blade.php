@@ -82,6 +82,13 @@
  <!-- Alertify -->
  <script src="{{ asset('/') }}admin/assets/js/alertify/alertify.min.js"></script>
 
+  <!-- Vue js -->
+ <script src="{{ asset('/') }}admin/assets/js/vue/vue-router.js"></script>
+ <script src="{{ asset('/') }}admin/assets/js/vue/vue.js"></script>
+ 
+ <!-- axios -->
+ <script src="{{ asset('/') }}admin/assets/js/axios.min.js"></script>
+
  <!--script admin-->
  <script src="{{ asset('/') }}admin/assets/js/admin-script.js"></script> 
  <script src="{{ asset('/') }}admin/assets/js/my-editor/script.js"></script>
